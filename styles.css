@@ -121,3 +121,37 @@ body{
     color: var(--cinza-secundario);
     margin-bottom: 3em;
 }
+@media screen and (max-width:768px){
+    .container{
+        display: block;;
+        background-image: none;
+}
+.container__imagem{
+    width:50vw;
+}
+.container__caixa{
+    margin: 2em 2em;
+}
+.secundario {
+    margin: 0;
+    text-align: center;
+}
+.secundario__imagem {
+    width: 50vw;
+}
+.dispositivos__lista{
+    display: block;
+}
+.rodape__lista a{
+    border: none;
+    margin: 20px;
+}
+.rodape__lista{
+    display: block;
+    padding: 15px;
+    margin: 30px 10px 10px 10px;
+}
+.lista__link{
+    margin: 10px;
+}
+}
